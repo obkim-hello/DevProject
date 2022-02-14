@@ -9,7 +9,7 @@ export default function Home() {
   const [msg, setmsg] = useState("");
 
   const params = {
-    // api_key: "384E6B7BED574F0DA54452A5BA589D69",
+    api_key: "384E6B7BED574F0DA54452A5BA589D69",
     type: "product",
     asin: "B084MKGMSQ",
     amazon_domain: "amazon.com",
