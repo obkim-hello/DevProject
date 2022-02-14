@@ -1,13 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  position: relative;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "AvenirNextCondensedUltraLight";
+  src: url("./Fonts/AvenirNextCondensedUltraLight.ttf") format("truetype");
+}
+
+/* @font-face {
+  font-family: "SourceHanSansCN";
+  src: url("./Fonts/SourceHanSansCN-ExtraLight-2.otf") format("truetype");
+} */
+
+@font-face {
+  font-family: "TekoLight";
+  src: local("TekoLight"), url("./Fonts/TekoLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "TekoMedium";
+  src: local("TekoMedium"), url("./Fonts/TekoMedium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsLight";
+  src: local("PoppinsLight"), url("./Fonts/PoppinsLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsExtraLight";
+  src: local("PoppinsExtraLight"),
+    url("./Fonts/PoppinsExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsSemiBoldItalic";
+  src: local("PoppinsSemiBoldItalic"),
+    url("./Fonts/PoppinsSemiBoldItalic.ttf") format("truetype");
 }
