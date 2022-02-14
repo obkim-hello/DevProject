@@ -120,15 +120,15 @@ export default function Home() {
     <div>Loading...</div>
   ) : (
     <div className="bg-black ml-24 mr-24 mt-12 rounded-tl-lg rounded-tr-lg m-24">
-      <div className="text-left text-white text-2xl lg:text-3xl font-anc-ul p-8">
+      <div className="text-left text-white text-4xl lg:text-5xl font-anc-ul p-8">
         Equillibrium Price
       </div>
 
       <div className="bg-white text-black p-8 font-anc-ul flex grid grid-row-2 lg:grid-cols-2">
-        <div className="text-left text-xl lg:text-2xl font-Teko-m">
+        <div className="text-left text-2xl lg:text-3xl font-Teko-m">
           Definition of Equillibrium Price
           <br />
-          <p className="text-sm lg:text-lg font-anc-ul">
+          <p className="text-lg lg:text-xl font-anc-ul">
             In economics, economic equilibrium is a situation in which economic
             forces such as supply and demand are balanced and in the absence of
             external influences the (equilibrium) values of economic variables
@@ -162,8 +162,11 @@ export default function Home() {
           .
         </p>
         <br />A revolutionary product that will change the lives of everyone
-        that buys it. In this exercise, you will help {product.brand} choose the
-        correct equillibrium price for the new product.
+        that buys it. <br />
+        <p className="text-lg lg:text-xl">
+          In this exercise, you will help {product.brand} choose the correct
+          equillibrium price for the new product.
+        </p>
       </div>
       <div className="flex grid lg:grid-cols-2 items-center justify-center bg-white">
         <img
@@ -203,7 +206,7 @@ export default function Home() {
                 class="bg-gray-300 hover:bg-blue-700 hover:text-white font-bold py-2 px-4 rounded-full"
                 onClick={calculateOutput}
               >
-                $2
+                $3
               </button>
               <button
                 value={4}
